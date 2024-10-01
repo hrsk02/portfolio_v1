@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linking CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Linking font awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Linking google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <!--AOS Animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="container">
+    <!-- Navbar -->
+    <nav>
+      <!-- /Logo -->
+      <img class="logo" src="images/logo.png" alt="My Logo">
+      <!-- Links -->
+      <ul>
+        <li class="list-items"><a class="Links" href="#home">HOME</a></li>
+        <li class="list-items"><a class="Links" href="#about">ABOUT</a></li>
+        <li class="list-items"><a class="Links" href="#skill">SKILLS</a></li>
+        <li class="list-items"><a class="Links" href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home-contents">
+        <h1 id="username">I'm Hridya <span id="lname">Sreekumar</span></h1>
+        <p id="user-details">This is my official Portfolio website to describe all <br>
+          details and work experience in Web Development </p>
+        <a id="download" href="">Download CV</a>
+      </div>
+      <div class="home-img">
+        <!-- shape -->
+        <img id="shape" class="group1" src="images/shape.png" alt="">
+        <!-- girl -->
+        <img id="girl" class="group1" src="images/girl.png" alt="">
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="sectionHead">
+        <h2 class="mainhead">About Me</h2>
+        <span class="subhead">Introduction</span>
+      </div>
+      <div class="aboutBody">
+        <div data-aos="fade-right" class="aboutImage">
+          <img class="img1" src="images/About.png" alt="No Image">
+        </div>
+        <div class="aboutContent">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe, esse magni possimus ratione illum
+            ullam tempore, delectus rerum, voluptates quidem cupiditate laboriosam! Provident et molestiae officiis
+            dolorem deleniti laudantium.
+            Nam, consequatur voluptates tenetur eum quae voluptatibus eaque quasi? Totam ut a velit quisquam, sapiente
+            saepe odio laudantium soluta praesentium. Numquam esse perferendis, veritatis magni minus hic non
+            perspiciatis laudantium.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero dolore ad laboriosam incidunt esse
+            blanditiis vel natus vero officia debitis laudantium sint quod id exercitationem, sed, quibusdam similique
+            magnam?
+          </p>
+          <div class="informations">
+            <div class="infobox">
+              <i class="fa-solid fa-user"></i>
+              <span>Hridya Sreekumar</span>
+            </div>
+            <div class="infobox">
+              <i class="fa-solid fa-phone"></i>
+              <span>9496374203</span>
+            </div>
+            <div class="infobox">
+              <i class="fa-solid fa-envelope"></i>
+              <span>hridyasreekumar02@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skill">
+      <div class="sectionHead">
+        <h2 class="mainhead">Skills</h2>
+        <span class="subhead">My Skills</span>
+      </div>
+      <div class="skillcontent">
+        <!-- progressbar -->
+        <div class="progressbar">
+          <!-- html bar -->
+          <div class="bars">
+            <h3 class="barHead">HTML</h3>
+            <span class="barPercent">93%</span>
+            <div class="basebar"></div>
+            <div  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+          </div>
+          <!-- CSS bar -->
+          <div class="bars">
+            <h3 class="barHead">CSS</h3>
+            <span class="barPercent">90%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+          </div>
+          <!-- JS bar -->
+          <div class="bars">
+            <h3 class="barHead">JavaScript</h3>
+            <span class="barPercent">75%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+          </div>
+          <!-- React bar -->
+          <div class="bars">
+            <h3 class="barHead">React</h3>
+            <span class="barPercent">73%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+          </div>
+        </div>
+        <!-- skillImage -->
+        <div data-aos="fade-left" class="skillImage">
+          <img class="myskill" src="images/skills.png" alt="skills">
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="sectionHead">
+        <h2 class="mainhead">Contacts</h2>
+        <span class="subhead">My contacts</span>
+      </div>
+      <div class="iconCollections">
+        <div class="icon">
+          <a target="_blank" href="https://www.linkedin.com/in/hridya-sreekumar"><i
+              class="fa-brands fa-linkedin brands"></i></a>
+        </div>
+        <div class="icon">
+          <a target="_blank" href="https://www.linkedin.com/in/hridya-sreekumar"><i
+              class="fa-brands fa-facebook brands"></i></a>
+        </div>
+        <div class="icon">
+          <a target="_blank" href="https://www.linkedin.com/in/hridya-sreekumar"><i
+              class="fa-brands fa-instagram brands"></i></a>
+        </div>
+        <div class="icon">
+          <a target="_blank" href="https://www.linkedin.com/in/hridya-sreekumar"><i
+              class="fa-brands fa-github brands"></i></a>
+        </div>
+        <div class="icon">
+          <a target="_blank" href="https://www.linkedin.com/in/hridya-sreekumar"><i
+              class="fa-brands fa-whatsapp brands"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p id="copyright"> &copy; My Portfolio Website-October 2024, All Rights Reserved to &reg; Hridya Sreekumar</p>
+      <div class="icon uparrow">
+        <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+      </div>
+    </footer>
+  </div>
+</body>
+<!-- AOS Bodyscript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
